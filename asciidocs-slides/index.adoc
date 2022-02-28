@@ -1,0 +1,24 @@
+= Franklyn
+Jonas Birklbauer
+1.0, 2022-02-23
+ifndef::sourcedir[:sourcedir: ../src/main/java]
+ifndef::imagesdir[:imagesdir: images]
+ifndef::backend[:backend: html5]
+:icons: font
+
+== Team
+
+* Jonas Birklbauer
+* Nico Bojer
+* Lorenz Gahleitner
+* Tarik Hosic
+
+== Motivation
+
+[.notes]
+--
+Man kennt die Situation. Man hat einen kleinen Fehler in seinem Code und bleibt bei diesem hängen. Da die Zeit bei einem Test wertvoll ist, ist es schade, dass man diese bei solchen Problemen verliert, deswegen gibt es Franklyn. Franklyn ermöglicht den Schülern, durch automatisch erstellen Screenshots, die Benutzung des Internets und garantiert der Lehrkraft, dass niemand schummelt. 
+--
+
+* Realistische Arbeitsumgebung
+* Lehrkraft hat die Sicherheit, dass niemand schummelt
