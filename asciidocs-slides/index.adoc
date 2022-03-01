@@ -66,6 +66,6 @@ Ganzes System ist gedockert und mit Traefik (einem Reverse Proxy) gesichert.
 --
 
 * Becky => Backup-System für Schularbeiten
-* Soll in Franklyn übernohmen werden
+* Soll in Franklyn übernommen werden
 
 == Danke für eure Aufmerksamkeit und gutes Schummeln ;)
