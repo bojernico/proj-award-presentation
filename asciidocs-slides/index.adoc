@@ -53,7 +53,7 @@ Lehrkraft kann sich selbst nach Ende eines Tests die Screenshots ansehen und kan
 
 [.notes]
 --
-Ganzes System ist gedockert und mit Traefik (einem Reverse Proxy) gesichert. 
+Ganzes System ist gedockert und mit Traefik, einem Reverse Proxy, gesichert. 
 --
 
 image::sys-arch.png[Systemarchitektur]
