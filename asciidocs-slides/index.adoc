@@ -13,12 +13,33 @@ ifndef::backend[:backend: html5]
 * Lorenz Gahleitner
 * Tarik Hosic
 
-== Motivation
+== Problem
 
 [.notes]
 --
-Man kennt die Situation. Man hat einen kleinen Fehler in seinem Code und bleibt bei diesem hängen. Da die Zeit bei einem Test wertvoll ist, ist es schade, dass man diese bei solchen Problemen verliert, deswegen gibt es Franklyn. Franklyn ermöglicht den Schülern, durch automatisch erstellen Screenshots, die Benutzung des Internets und garantiert der Lehrkraft, dass niemand schummelt. 
+Man kennt die Situation. Man hat einen kleinen Fehler in seinem Code und bleibt bei diesem hängen. Da die Zeit bei einem Test wertvoll ist, ist es schade, dass man diese bei solchen Problemen verliert.
 --
 
-* Realistische Arbeitsumgebung
+* Kleine Probleme im Code
+* Man verliert viel Zeit
+* Bekommt eine schlechtere Note deswegen
+
+== Lösung
+
+[.notes]
+--
+Deswegen gibt es Franklyn. Franklyn ermöglicht den Schülern, durch automatisch erstellten Screenshots, die Benutzung des Internets und garantiert der Lehrkraft, dass niemand schummelt.
+--
+
+* Ermöglicht eine realistische Arbeitsumgebung
 * Lehrkraft hat die Sicherheit, dass niemand schummelt
+* Screenshots des Bildschirmes des Schülers
+
+== Ziel
+
+[.notes]
+--
+
+--
+
+* 
