@@ -1,8 +1,7 @@
 = Franklyn
-Jonas Birklbauer
 1.0, 2022-02-23
 ifndef::sourcedir[:sourcedir: ../src/main/java]
-ifndef::imagesdir[:imagesdir: images]
+ifndef::imagesdir[:imagesdir: imgs]
 ifndef::backend[:backend: html5]
 :icons: font
 
@@ -17,23 +16,26 @@ ifndef::backend[:backend: html5]
 
 [.notes]
 --
-Man kennt die Situation. Man hat einen kleinen Fehler in seinem Code, bleibt bei diesem hängen und verliert dadurch wertvolle Zeit bei einem Test. Resultat dieses Zeitverlustes ist meist eine schlechtere Note.
+Man kennt die Situation. Man hat einen kleinen Fehler in seinem Code, bleibt bei diesem hängen und verliert dadurch wertvolle Zeit bei einer Überprüfungs. Die Lehrkraft kann schließlich nicht die ganze Zeit den Schülern helfen, ansonsten wäre das eher eine Schulübung als eine Schularbeit. Stellt euch vor, das passiert öfter, wieviel Zeit bleibt einem dann noch? Richtig, wenig. Man kann nicht sein vollständiges Wissen wiedergeben, da man genau durch solche Kleinigkeiten feststeckt.
 --
 
-* Kleine Probleme im Code
-* Man verliert viel Zeit
-* Bekommt eine schlechtere Note deswegen
+* Kleine Fehler im Code
+* Wertvolle Zeit geht verloren
 
 == Lösung
 
 [.notes]
 --
-Deswegen gibt es Franklyn. Franklyn ermöglicht den Schülern, durch automatisch erstellten Screenshots, die Benutzung des Internets und garantiert der Lehrkraft, dass niemand schummelt.
+Deswegen gibt es Franklyn. 
+Franklyn gibt Schülern die Möglichkeit, das Internet ohne Einschränkung benutzen zu können.
+Dies ist möglich, da Franklyn automatisch Screenshots der Schülerbildschirme erstellt und diese online speichert.
+Dabei muss die Lehrkraft keine Bedenken haben, da ihr diese zur Verfügung stehen.
+
+Somit kann die Lehrkraft einen guten Überblick über den Fortschritt der Schüler behalten und schneller helfen.
 --
 
 * Screenshots des Bildschirmes des Schülers
 * Ermöglicht eine realistische Arbeitsumgebung
-* Lehrkraft hat die Sicherheit, dass niemand schummelt
 
 == Feature-Set
 
@@ -54,7 +56,7 @@ Lehrkraft kann sich selbst nach Ende eines Tests die Screenshots ansehen und kan
 Ganzes System ist gedockert und mit Traefik (einem Reverse Proxy) gesichert. 
 --
 
-* IMAGE NEEDS TO BE ADDED
+image::sys-arch.png[Systemarchitektur]
 
 == Live-Demo
 
