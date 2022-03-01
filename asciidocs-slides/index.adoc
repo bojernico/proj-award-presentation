@@ -17,7 +17,7 @@ ifndef::backend[:backend: html5]
 
 [.notes]
 --
-Man kennt die Situation. Man hat einen kleinen Fehler in seinem Code und bleibt bei diesem hängen. Da die Zeit bei einem Test wertvoll ist, ist es schade, dass man diese bei solchen Problemen verliert.
+Man kennt die Situation. Man hat einen kleinen Fehler in seinem Code, bleibt bei diesem hängen und verliert dadurch wertvolle Zeit bei einem Test. Resultat dieses Zeitverlustes ist meist eine schlechtere Note.
 --
 
 * Kleine Probleme im Code
@@ -31,15 +31,41 @@ Man kennt die Situation. Man hat einen kleinen Fehler in seinem Code und bleibt 
 Deswegen gibt es Franklyn. Franklyn ermöglicht den Schülern, durch automatisch erstellten Screenshots, die Benutzung des Internets und garantiert der Lehrkraft, dass niemand schummelt.
 --
 
+* Screenshots des Bildschirmes des Schülers
 * Ermöglicht eine realistische Arbeitsumgebung
 * Lehrkraft hat die Sicherheit, dass niemand schummelt
-* Screenshots des Bildschirmes des Schülers
 
-== Ziel
+== Feature-Set
+
+[.notes]
+--
+Lehrkraft kann sich selbst nach Ende eines Tests die Screenshots ansehen und kann somit ältere Stände der Abgabe eines Schülers ansehen. Lehrkraft kann während des Tests automatisch durch alle Bildschirme durchwechseln. 
+--
+
+* Screenshots von fertigen Tests ansehen
+* Patroulliermodus
+* Möglichkeit von Franklyn-Client auf GH-Repo zu pushen
+
+
+== Systemarchitektur
+
+[.notes]
+--
+Ganzes System ist gedockert und mit Traefik (einem Reverse Proxy) gesichert. 
+--
+
+* IMAGE NEEDS TO BE ADDED
+
+== Live-Demo
+
+== Zusatzsystem
 
 [.notes]
 --
 
 --
 
-* 
+* Becky => Backup-System für Schularbeiten
+* Soll in Franklyn übernohmen werden
+
+== Danke für eure Aufmerksamkeit und gutes Schummeln ;)
