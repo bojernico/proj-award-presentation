@@ -55,7 +55,7 @@ Lehrkraft kann sich selbst nach Ende eines Tests die Screenshots ansehen und kan
 Ganzes System ist gedockert und mit Traefik, einem Reverse Proxy, gesichert. 
 --
 
-image::sys-arch.png[Systemarchitektur, 630, 600]
+image::sys-arch.png[Systemarchitektur, 500, 500]
 
 == Live-Demo
 
