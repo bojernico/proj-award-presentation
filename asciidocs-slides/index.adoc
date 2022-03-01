@@ -1,6 +1,6 @@
 = Franklyn
 ifndef::sourcedir[:sourcedir: ../src/main/java]
-ifndef::imagesdir[:imagesdir: imgs]
+ifndef::imagesdir[:imagesdir: asciidocs-slides/imgs]
 ifndef::backend[:backend: html5]
 :icons: font
 
